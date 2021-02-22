@@ -24,16 +24,16 @@ function changePicture(backgroundImage){
 
     let banner = document.getElementById("banner");
     console.log(backgroundImage, "BG IMAGE");
-    if (backgroundImage === 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///C:/Users/CSTod/OneDrive/Desktop/OSU%20CS/CS%20290/Project/toddcal/me.jpg")'){
+    if (backgroundImage === 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://web.engr.oregonstate.edu/~toddcal/Me.jpg")'){
       banner.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("luna.jpg")';
     }
-    else if (backgroundImage === 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///C:/Users/CSTod/OneDrive/Desktop/OSU%20CS/CS%20290/Project/toddcal/luna.jpg")'){
+    else if (backgroundImage === 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://web.engr.oregonstate.edu/~toddcal/luna.jpg")'){
       banner.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("rockito.jpg")';
     }
-    else if (backgroundImage === 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///C:/Users/CSTod/OneDrive/Desktop/OSU%20CS/CS%20290/Project/toddcal/rockito.jpg")'){
+    else if (backgroundImage === 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://web.engr.oregonstate.edu/~toddcal/rockito.jpg")'){
       banner.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Valle.jpg")';
     }
-    else if (backgroundImage === 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///C:/Users/CSTod/OneDrive/Desktop/OSU%20CS/CS%20290/Project/toddcal/valle.jpg")'){
+    else if (backgroundImage === 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://web.engr.oregonstate.edu/~toddcal/Valle.jpg")'){
       banner.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Me.jpg")';
     }
 };
