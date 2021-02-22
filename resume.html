@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://kit.fontawesome.com/146ee48a79.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Calvin's Résumé</title>
+  </head>
+  <body>
+    <div class="banner" id="banner">
+    </div>
+    <div class="banner-text">
+      <h1>Calvin Todd's Portfolio</h1>
+    </div>
+    <div class="secret-text">
+      <p>"Developer, Sommelier, DM, and Cat Dad"</p>
+    </div>
+    <nav>
+    <ul class="nav-bar">
+      <li class="nav-button"><a href="index.html">Home</a></li>
+      <li class="nav-button"><a href="about.html">About</a></li>
+      <li class="nav-button"><a href="resume.html" id="selected">Résumé</a></li>
+      <li class="nav-button"><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    <div class="download-div">
+      <p class="download-button-text"><a href="2.12.21 Resume.pdf" download>Click Here To Download My Full Résumé! <i class="fas fa-download"></i></a></p>
+    </div>
+    <br>
+    <div class="resume">
+    <span class="resume-categories">
+      <ul>
+        <li class="resume-buttons" onclick="expandResume('cert')"><p class="resume-button-text">Certifications and Awards</p></li>
+        <li class="resume-buttons" onclick="expandResume('skills')"><p class="resume-button-text">Skills</p></li>
+        <li class="resume-buttons" onclick="expandResume('proj')"><p class="resume-button-text">Personal Projects</p></li>
+        <li class="resume-buttons" onclick="expandResume('hosp')"><p class="resume-button-text">Hospitality Work Experience</p></li>
+        <li class="resume-buttons" onclick="expandResume('tech')"><p class="resume-button-text">Tech Work Experience</p></li>
+      </ul>
+    </span>
+    <span class="resume-expanded">
+      <div class="resume-info hidden" id="cert">
+        <ul>
+          <li class="bold">Microsoft:</li>
+              <ul>
+                <li>Microsoft Certified Professional since 2005</li>
+                <li>Microsfot Certified Desktop Support Technician since 2006</li>
+              </ul>
+            <li class="bold">University of Michigan</li>
+              <ul>
+                <li>Python for Everybody specialization</li>
+                <li>Web Design For Everybody specialization</li>
+              </ul>
+            <li class="bold">Google</li>
+              <ul>
+                <li>Google IT Automation with Python specialization</li>
+              </ul>
+            <li class="bold">Wine Spectator Award of Excellence</li>
+              <ul>
+                <li>Leroy's Kitchen and Lounge, 2015</li>
+                <li>Leroy's Kitchen and Lounge, 2016</li>
+                <li>Leroy's Kitchen and Lounge, 2017</li>
+                <li>Maretalia Ristorante, 2017</li>
+              </ul>
+          </div>
+          <div class="resume-info hidden" id="skills">
+            <ul>
+              <li class="bold">Tech Skills:</li>
+                  <ul>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>HTML, CSS</li>
+                    <li>Network Administration</li>
+                    <li>Desktop Support for Hardware and Software</li>
+                    <li>MASM x86 Assembly</li>
+                    <li>Excel, Microsoft Office</li>
+                    <li>Wordpress</li>
+                    <li>UI/UX Design</li>
+                  </ul>
+                <li class="bold">Soft Skills:</li>
+                  <ul>
+                    <li>Time Management</li>
+                    <li>Team Management</li>
+                    <li>Interpersonal/Intrapersonal Communication</li>
+                    <li>Customer Focused Service</li>
+                    <li>Team Leadership</li>
+                    <li>Team Mentoring</li>
+                    <li>Project Leader</li>
+                  </ul>
+                  </ul>
+              </div>
+              <div class="resume-info hidden" id="proj">
+                <ul>
+                  <li class="bold">Personal Projects:</li>
+                      <ul>
+                        <li><a href="http://www.freepour.media">FreePour.Media</a></li>
+                        <ul>
+                          <li>A beverage focused blog and podcast run by myself and friend (and fellow Somm) Will Allen.</li>
+                        </ul>
+                        <li><a href="http:www.DMMinute.com">The DM Minute</a></li>
+                        <ul>
+                          <li>A 5e blog and (future) podcast founded and moderated by me!</li>
+                        </ul>
+                        <li>Github Projects:</li>
+                          <ul>
+                            <li><a href="https://github.com/CSToddDEV/LootBot">LootBot:</a> A python based Discord chat-bot that manages your 5e Table Top Game inventory via Google Sheets and Discord</li>
+                            <li><a href="https://github.com/CSToddDEV/Interminable-Space">Interminable Space:</a> A C# game created for a 72 hour game jam.</li>
+                          </ul>
+                        </ul>
+                      </ul>
+              </div>
+              <div class="resume-info hidden" id="hosp">
+                <ul>
+                  <li class="bold">Sea 180 Coastal Tavern (7/2019-current)</li>
+                  <ul>
+                    <li>Bartender, Server, Trainer, Banquet Captain</li>
+                    <li>Assist Beverage Manager with Cocktail and Wine List construction</li>
+                    <li>Responsible for staff beverage training</li>
+                  </ul>
+                  <li class="bold">Stone Brewing (11/2018-7/2019)</li>
+                  <ul>
+                    <li>General Manager</li>
+                    <li>Oversaw a team of 30+ employees</li>
+                    <li>Responsible for budget and management of 4.5 million dollar per year restaurant</li>
+                    <li>Oversaw cocktail and food menu construction</li>
+                  </ul>
+                  <li class="bold">Blue Bridge Hospitality (6/2014-11/2018)</li>
+                  <ul>
+                    <li>Bar Manager, Beverage Director, Sommelier</li>
+                    <li>Assisted in multiple New Restaurant Openings</li>
+                    <li>Won 4 Wine Spectator Awards of Excellence for my wine lists</li>
+                    <li>Assisted in front of house management and beverage management at seven different local concepts</li>
+                  </ul>
+                </ul>
+              </div>
+              <div class="resume-info hidden" id="tech">
+                <ul>
+                  <li class="bold">This Could Be Your Company If You Hire Me! (now-current)</li>
+                  <ul>
+                    <li>If you or your company are looking for a play maker in the field, please reach out through my contact page!</li>
+                  </ul>
+                  <li class="bold">Cedarpark Computers (08/2005-01/2007)</li>
+                  <ul>
+                    <li>Hired as computer tech, promoted to Assistant Manger</li>
+                    <li>On and Off-site laptop, desktop repair</li>
+                    <li>Maintained networks for local businesses</li>
+                    <li>Home network installation and repair</li>
+                  </ul>
+                </ul>
+              </div>
+    </span>
+    </div>
+    <footer>
+      <a href="http://www.github.com/CSToddDev" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="http://www.Linkedin.com/in/calvin-scott-todd" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:CSTodd88@gmail.com"><i class="fas fa-envelope"></i></a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
