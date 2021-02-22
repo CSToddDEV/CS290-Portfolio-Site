@@ -238,14 +238,12 @@ footer a {
 }
 
 .resume-buttons:hover,
-.download-button:hover,
 .about-button:hover {
   background-color: indigo;
   z-index: 0;
 }
 
 .resume-button-text,
-.download-button-text,
 .about-button-text{
   color: indigo;
   padding: 0px;
