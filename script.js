@@ -1,8 +1,8 @@
 var current_slide;
 var scroll_buttons = document.getElementsByClassName("about-button");
 var slide = 0;
-console.log(window.location.pathname)
-if (window.location.pathname === "/~toddcal/index.html"){
+console.log(window.location.pathname, "Patname")
+if (window.location.pathname === "http:web.engr.oregonstate.edu/~toddcal/index.html"){
   slideShow()
 };
 
@@ -23,6 +23,7 @@ function changeBackground(){
 function changePicture(backgroundImage){
 
     let banner = document.getElementById("banner");
+    console.log(backgroundImage, "BG IMAGE");
     if (backgroundImage === 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///C:/Users/CSTod/OneDrive/Desktop/OSU%20CS/CS%20290/Project/toddcal/me.jpg")'){
       banner.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("luna.jpg")';
     }
