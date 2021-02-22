@@ -1,7 +1,6 @@
 var current_slide;
 var scroll_buttons = document.getElementsByClassName("about-button");
 var slide = 0;
-console.log(window.location.pathname, "Patname")
 if (window.location.pathname === "/~toddcal/" || window.location.pathname === "/~toddcal/index.html"){
   slideShow()
 };
