@@ -331,8 +331,6 @@ footer a {
 }
 
 .download-button-text {
-  background-color: indigo;
-  border: solid 2px blueviolet;
   padding: 5px;
   border-radius: 2px;
 }
