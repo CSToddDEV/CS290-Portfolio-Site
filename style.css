@@ -176,7 +176,7 @@ footer a {
 }
 
 .slide-text {
-  color: #333;
+  color: skyblue;
   font-size: 20px;
   padding: 10px 25px;
   position: absolute;
@@ -358,4 +358,9 @@ h3 {
 
 form {
   z-index: 1;
+}
+
+.no-underline {
+  text-decoration: none;
+  color: #333;
 }
