@@ -2,7 +2,7 @@ var current_slide;
 var scroll_buttons = document.getElementsByClassName("about-button");
 var slide = 0;
 console.log(window.location.pathname, "Patname")
-if (window.location.pathname === "http:web.engr.oregonstate.edu/~toddcal/index.html"){
+if (window.location.pathname === "http:web.engr.oregonstate.edu/"){
   slideShow()
 };
 
@@ -23,7 +23,6 @@ function changeBackground(){
 function changePicture(backgroundImage){
 
     let banner = document.getElementById("banner");
-    console.log(backgroundImage, "BG IMAGE");
     if (backgroundImage === 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://web.engr.oregonstate.edu/~toddcal/Me.jpg")'){
       banner.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("luna.jpg")';
     }
@@ -59,7 +58,6 @@ function displaySlide(slide) {
     slide_list[i].style.display = "none";
     selectors[i].className = selectors[i].className.replace(" square-selected", "");
   }
-    console.log(slide_list)
   slide_list[slide - 1].style.display = "flex";
   selectors[slide - 1].className += " square-selected";
   current_slide = slide;
