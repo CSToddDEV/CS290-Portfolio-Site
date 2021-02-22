@@ -31,10 +31,10 @@ function changePicture(backgroundImage){
       banner.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("rockito.jpg")';
     }
     else if (backgroundImage === 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///C:/Users/CSTod/OneDrive/Desktop/OSU%20CS/CS%20290/Project/toddcal/rockito.jpg")'){
-      banner.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("valle.jpg")';
+      banner.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Valle.jpg")';
     }
     else if (backgroundImage === 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///C:/Users/CSTod/OneDrive/Desktop/OSU%20CS/CS%20290/Project/toddcal/valle.jpg")'){
-      banner.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("me.jpg")';
+      banner.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Me.jpg")';
     }
 };
 
